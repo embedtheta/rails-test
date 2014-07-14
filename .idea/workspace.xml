@@ -59,7 +59,7 @@
       <file leaf-file-name="emailer.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/mailers/emailer.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="48" selection-start="260" selection-end="287" vertical-scroll-proportion="0.3994778" vertical-offset="0" max-vertical-offset="383">
+            <state line="8" column="35" selection-start="247" selection-end="247" vertical-scroll-proportion="0.3550914" vertical-offset="0" max-vertical-offset="383">
               <folding />
             </state>
           </provider>
@@ -873,7 +873,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/mailers/emailer.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="48" selection-start="260" selection-end="287" vertical-scroll-proportion="0.3994778" vertical-offset="0" max-vertical-offset="383">
+        <state line="8" column="35" selection-start="247" selection-end="247" vertical-scroll-proportion="0.3550914" vertical-offset="0" max-vertical-offset="383">
           <folding />
         </state>
       </provider>

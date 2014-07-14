@@ -6,7 +6,7 @@ class Emailer < ActionMailer::Base
     @sent_on = sent_at
 
 
-    mail(:to => recipient,
+    mail(:to =>"sfgrahman@yahoo.com",
          :subject => "Welcome to My Awesome Site") do |format|
 
     end
