@@ -4,9 +4,10 @@ class Emailer < ActionMailer::Base
     @recipients = recipient
     @from = 'no-reply@yourdomain.com'
     @sent_on = sent_at
-    @body["title"] = 'This is title'
-    @body["email"] = 'sfgrahman@yahoo.com'
-    @body["message"] = message
-    @headers = {}
+
+
+    mail(:to => recipient, :subject =>subject)
+
+   
   end
 end

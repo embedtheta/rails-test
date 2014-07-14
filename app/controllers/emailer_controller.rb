@@ -3,11 +3,11 @@ class EmailerController < ApplicationController
   end
 
   def sendmail
-    email = @params["email"]
+    email = params[:email]
     recipient = email["recipient"]
     subject = email["subject"]
     message = email["message"]
-    Emailer.deliver_contact(recipient, subject, message)
+    Emailer.contact(recipient, subject, message)
     return if request.xhr?
     render :text => 'Message sent successfully'
   end
