@@ -7,7 +7,7 @@ class EmailerController < ApplicationController
     recipient = email["recipient"]
     subject = email["subject"]
     message = email["message"]
-    Emailer.contact(recipient, subject, message)
+   Emailer.contact(subject,recipient,message,sent_at = Time.now)
     return if request.xhr?
     render :text => 'Message sent successfully'
   end
